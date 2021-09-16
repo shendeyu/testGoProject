@@ -38,6 +38,6 @@ WORKDIR /app
 COPY --from=builder /app/publish .
 RUN chmod +x focus
 
-EXPOSE 8199
+EXPOSE 8399
 
 CMD ./focus
