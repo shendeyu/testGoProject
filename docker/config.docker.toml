@@ -17,7 +17,7 @@
         level  = "all"
         stdout = true
     [database.default]
-        link   = "mysql:wink:TEST#123.com,?@tcp(test.cws5syxu9xu4.us-east-2.rds.amazonaws.com:3306)/focus"
+        link   = "mysql:wink:TEST#123.com,?@tcp(test.cws5syxu9xu4.us-east-2.rds.amazonaws.com:3306)/tron_price"
         debug  = true
 
 # 内容设置
