@@ -41,7 +41,7 @@ services:
       # 日志
       - $PWD/logs/:/app/logs/
     ports:    # 指定端口映射
-      - "8199:8199"
+      - "8399:8299"
     depends_on:
       - mysql8
 
